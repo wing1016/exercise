@@ -42,6 +42,12 @@ public class JavaQuest3 {
         // i.e. 2200 Feb -> 28 days, 2400 Feb -> 29 days, 2016 Feb -> 29 days
         // otherwise the February should have 28 days only
         // how about other months, December?
+
+        if (year%4==0 && ( year%100!=0 || year%400==0 ) ) {  
+          number_Of_DaysInMonth = 29;
+        } else {
+          number_Of_DaysInMonth = 28;
+        }
         break;
         case 3:
         MonthOfName = "March";
