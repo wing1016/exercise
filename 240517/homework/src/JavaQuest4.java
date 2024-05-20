@@ -18,7 +18,7 @@ public class JavaQuest4 {
             }
             if (i % 2 == 0 && i % 3 == 0 && i > 0) {
                 num += 1;
-                System.out.println(i);
+                System.out.print(i + " ");
 
             }
         }
