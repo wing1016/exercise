@@ -30,7 +30,7 @@ public class JavaQuest6 {
 // 1 loop a=1  b=1  c=2
 // 2 loop a=1  b=2  c=3
 // 3 loop a=2  b=3  c=5
-// 3 loop a=3  b=5  c=8
+// 4 loop a=3  b=5  c=8
 
 
 // 0	0	1	1
